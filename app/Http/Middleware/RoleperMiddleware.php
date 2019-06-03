@@ -38,12 +38,12 @@ class RoleperMiddleware
         $psr = array_unique($prs);
         //获取当前 Laravel 项目的控制器或者方法名
         $urls = \Route::current()->getActionName();
-        // dump($urls);
+        dump($urls);
         //判断权限存在
-        // if(in_array($urls, $psr)){
-        //     return $next($request);
-        // } else {
-        //     return redirect('/admin/power');
-        // }
+        if(in_array($urls, $psr)){
+            return $next($request);
+        } else {
+            // return redirect('/admin/power');
+        }
     }
 }
