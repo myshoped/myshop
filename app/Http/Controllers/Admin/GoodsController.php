@@ -240,6 +240,7 @@ class GoodsController extends Controller
      */
     function del(Request $request,$id)
     {
+       
         //开启事务
         DB::beginTransaction();
         $aa = Versions::where('goods_id',$id)->get();
