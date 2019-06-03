@@ -1,0 +1,33 @@
+/* 主 要 菜 单 */
+#menu>li{width:210px;height:43px;background-color:#B1191A;color:white;text-indent:11px;float:left;position:relative;}
+#menu>li>ul{padding-top:2px;}
+#menu>li .m1{width:210px;height:31px;background-color:#C81623;color:white;font-size:13px;font-weight:bold;line-height:31px;}
+#menu>li .m1 a{color:white;text-decoration:none;}
+#menu>li .m1:hover{background-color:white;color:red;border-left:1px solid #c81623;}
+#menu>li .m1:hover>a{color:red;}
+
+
+/* 二 级 菜 单 */
+.m2{width:1000px;height:470px;position:absolute;left:210px;z-index:1;top:45px;display:none;background-color:white;border:1px solid #c81623;border-width:0px 1px 1px 0px;}
+.m1:hover .m2{display:block;}
+.sm_l{width:812px;float:left;height:470px;}
+.sm_r{width:168px;float:right;margin-right:20px;}
+.sm_r>img{display:block;margin:15px 0px;}
+
+.sml_1{height:30px;width:800px;padding-left:10px;margin-top:19px;}
+.sml_1>a{display:inline-block;height:26px;background-color:#7C7171;text-decoration:none;margin-right:5px;color:white;font-weight:bold;}
+.sml_1>a>i{display:inline-block;height:26px;width:20px;background-color:#5C5251;margin-left:6px;text-indent:5px;}
+
+.sml_2{height:400px;width:800px;background-color:white;opacity:1;padding-left:10px;}
+.sml_2>a{float:left;text-decoration:none;line-height:50px;background-color:pink;margin:10px;padding:0px 30px;text-indent:0px;border-radius:2px;}
+
+/* 横向导航菜单 */
+#menu_right>li{margin:0px 20px;float:left;color:#7B7B7B;}
+#menu_right>li:hover{color:red;}
+#mr_1 li{margin-bottom:9px}
+#mr_1 li:hover{color:red;}
+#mr_1>#notice{font-size:13px;text-indent:12px;padding-top:1px;}
+
+/* 一 条 红 线 */
+#line{border-top:2px solid #B1191A;}
+

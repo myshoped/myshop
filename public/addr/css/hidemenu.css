@@ -1,0 +1,3 @@
+/*隐藏菜单*/
+#dropdown{display:none;}
+#menu>li:hover #dropdown{display:block;}

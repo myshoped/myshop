@@ -1,0 +1,12 @@
+/* 头 部  */
+#header{width:1210px;margin:0px auto;opacity:1;background-color:white;height:100px;position:relative;}
+#logo{width:270px;display:block;float:left;margin-top:19px;}
+#h_in{height:26px;width:450px;position:absolute;left:364px;top:26px;border:2px solid #b1191a;}
+#h_btn{height:32px;width:80px;position:absolute;left:818px;top:26px;border:2px solid #b1191a;background-color:#b1191a;color:white;}
+#hot_word{position:absolute;left:362px;top:67px;font-size:12px;}
+#hot_word>span{margin-right:5px;}
+#hot_word>span:hover{color:red;}
+#h_cart{width:140px;height:36px;float:right;margin-top:24px;margin-right:66px;text-decoration:none;line-height:36px;font-size:13px;color:black;}
+#h_cart:hover{color:red;}
+#h_cart>i{margin-left:25px;display:inline-block;width:18px;height:15px;background:url('./images/bg_lt.png') 0px 103px;}
+
